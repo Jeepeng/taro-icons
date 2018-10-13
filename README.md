@@ -14,14 +14,14 @@ import 'taro-icons/scss/MaterialIcons.scss';
 
 然后在需要用到图标的地方引入对应d的`component`使用:
 ```js
-import MaterialIcon from 'taro-icons/components/MaterialIcons';
+import { MaterialIcons } from 'taro-icons';
 ...
 
-<MaterialIcon name='settings' size={24} color='#000000' />
+<MaterialIcons name='settings' size={24} color='#000000' />
 ```
-其中`name`必填，可以在对应的网站上找到
+其中`name`必填，可以在对应的网站上找到
 
-## Icon props
+## Icon props
 | 属性 | 说明 | 类型 | 默认值 |
 | ------ | ------ | ------ | ------ |
 | name | 需要显示的图标名称，可以在对应图标库网站找到 | String |  |
