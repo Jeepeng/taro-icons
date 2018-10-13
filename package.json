@@ -1,0 +1,33 @@
+{
+  "name": "taro-icons",
+  "version": "0.0.1",
+  "description": "基于 Taro 的小程序图标库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:data": "node ./build-font-data.js",
+    "build:content": "node ./build-css-content.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeepeng/taro-icons.git"
+  },
+  "keywords": [
+    "taro",
+    "taro-ui",
+    "weapp",
+    "小程序",
+    "图标",
+    "icon",
+    "icons"
+  ],
+  "author": "Jeepeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeepeng/taro-icons/issues"
+  },
+  "homepage": "https://github.com/Jeepeng/taro-icons#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  }
+}

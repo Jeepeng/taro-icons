@@ -1,0 +1,5 @@
+example/
+
+.idea
+src/asset/
+build-*.js
