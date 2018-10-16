@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 50px;
+  }
+  .title {
+    color: #333333;
+    font-size: 24PX;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  .text {
+    color: #888888;
+    margin: 0 10px;
+  }
+  .icons {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
