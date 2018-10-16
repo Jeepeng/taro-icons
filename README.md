@@ -1,6 +1,8 @@
 # taro-icons
 基于 Taro 的小程序图标库
 
+![example](screenshots/example.jpg)
+
 ## 安装
 ```shell
 npm install taro-icons --save
