@@ -30,6 +30,7 @@ import { MaterialIcons } from 'taro-icons';
 
 
 ## 支持的图标库:
-* [Ionicons](https://ionicons.com/) v4.4.4  ～131KB
-* [MaterialIcons](https://material.io/tools/icons/) v3.0.1  ～195KB
-* [MaterialCommunityIcons](https://materialdesignicons.com/)  ～386KB
+- [x] [Ionicons](https://ionicons.com/) v4.4.4  ～131KB
+- [x] [MaterialIcons](https://material.io/tools/icons/) v3.0.1  ～112KB
+- [x] [MaterialCommunityIcons](https://materialdesignicons.com/)  ～386KB
+- [ ] [FontAwesome](https://fontawesome.com/)
