@@ -36,3 +36,6 @@ import { MaterialIcons } from 'taro-icons';
 - [x] [MaterialIcons](https://material.io/tools/icons/) v3.0.1  ～112KB
 - [x] [MaterialCommunityIcons](https://materialdesignicons.com/)  ～386KB
 - [ ] [FontAwesome](https://fontawesome.com/)
+
+## ⚠️注意事项
+在`微信开发者工具`中，选择 设置 -> 项目设置 -> 调试基础库，设置版本`2.2.3`及以上，图标才能正常显示
