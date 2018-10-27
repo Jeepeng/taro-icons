@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
-import { MaterialIcons, MaterialCommunityIcons, Ionicons } from 'taro-icons'
+import { MaterialIcons, MaterialCommunityIcons, Ionicons, FontAwesome } from 'taro-icons'
 import './index.scss'
 
 export default class Index extends Component {
@@ -78,8 +78,18 @@ export default class Index extends Component {
         </View>
         <View className='item'>
           <View className='title'>FontAwesome</View>
+          <View className='icons'>
+            <FontAwesome family='solid' name='address-book' size={32} color='#000000' />
+            <FontAwesome style='margin:0 10px;' family='regular' name='address-book' size={32} color='#000000' />
+            <FontAwesome style='margin:0 10px;' family='regular' name='snowflake' size={32} color='#000000' />
+            <FontAwesome style='margin:0 10px;' family='solid' name='balance-scale' size={32} color='#000000' />
+            <FontAwesome style='margin:0 10px;' family='brands' name='weixin' size={32} />
+            <FontAwesome style='margin:0 10px;' family='brands' name='alipay' size={32} />
+            <FontAwesome style='margin:0 10px;' family='brands' name='git' size={32} />
+          </View>
           <View>
-            <Text className='text'>稍后支持</Text>
+            <Text className='text'>共 1391 个icons</Text>
+            <Text className='text'>打包后大小 298KB</Text>
           </View>
         </View>
       </View>
