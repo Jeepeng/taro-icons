@@ -11,17 +11,30 @@ npm install taro-icons --save
 在 `app.js` 中导入你需要的图标库`scss` 文件，如 `MaterialIcons`:
 ```js
 // app.js
-import 'taro-icons/scss/MaterialIcons.scss';
+// 请根据需要选择导入的 scss，这里全部导入
+import 'taro-icons/scss/MaterialCommunityIcons.scss' // 386KB
+import 'taro-icons/scss/MaterialIcons.scss' // 112KB
+import 'taro-icons/scss/Ionicons.scss' // 131KB
+import 'taro-icons/scss/FontAwesome.scss' // 131KB
 ```
 
 然后在需要用到图标的地方引入对应d的`component`使用:
 ```js
-import { MaterialIcons } from 'taro-icons';
+import {
+  MaterialIcons,
+  MaterialCommunityIcons,
+  Ionicons,
+  FontAwesome,
+} from 'taro-icons';
 ...
 
 <MaterialIcons name='settings' size={24} color='#000000' />
+<MaterialCommunityIcons name='account' size={32} color='#000000' />
+<Ionicons name='ios-woman' size={32} color='pink' />
+<FontAwesome family='brands' name='weixin' size={32} />
 ```
-其中`name`必填，可以在对应的网站上找到
+其中`name`必填，可以在对应的网站上找到  
+具体用法请参考 `example`
 
 ## Icon props
 | 属性 | 说明 | 类型 | 默认值 |
