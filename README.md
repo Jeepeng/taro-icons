@@ -29,13 +29,14 @@ import { MaterialIcons } from 'taro-icons';
 | name | 需要显示的图标名称，可以在对应图标库网站找到 | String |  |
 | size | 图标大小（px） | Number | 24 |
 | color | 图标颜色 | String | #000000 |
+| family | FontAwesome 特有属性(solid、regular、brands) | String | solid |
 
 
 ## 支持的图标库:
-- [x] [Ionicons](https://ionicons.com/) v4.4.4  ～131KB
-- [x] [MaterialIcons](https://material.io/tools/icons/) v3.0.1  ～112KB
-- [x] [MaterialCommunityIcons](https://materialdesignicons.com/)  ～386KB
-- [ ] [FontAwesome](https://fontawesome.com/)
+- [x] [Ionicons](https://ionicons.com/) (v4.4.4, 696 icons,  ～131KB)
+- [x] [MaterialIcons](https://material.io/tools/icons/) (v3.0.1, 935 icons, ～112KB)
+- [x] [MaterialCommunityIcons](https://materialdesignicons.com/)  (v2.8.94, 2906 icons, ～386KB)
+- [x] [FontAwesome](https://fontawesome.com/) (v5.4.2, 1391 icons, ~298KB)
 
 ## ⚠️注意事项
 在`微信开发者工具`中，选择 设置 -> 项目设置 -> 调试基础库，设置版本`2.2.3`及以上，图标才能正常显示

@@ -1,9 +1,9 @@
-@import "./_MaterialIcons-data.scss";
+@import "./data/MaterialIcons.scss";
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: $src;
+  src: $MaterialIcons;
 }
 
 .md {
@@ -30,4 +30,4 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-@import './MaterialIcons-content.scss';
+@import './content/MaterialIcons.scss';
