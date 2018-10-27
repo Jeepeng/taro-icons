@@ -4,7 +4,7 @@ import Taro, { Component } from '@tarojs/taro'
 import 'taro-icons/scss/MaterialCommunityIcons.scss' // 386KB
 import 'taro-icons/scss/MaterialIcons.scss' // 112KB
 import 'taro-icons/scss/Ionicons.scss' // 131KB
-import 'taro-icons/scss/fontawesome.scss' // 131KB
+import 'taro-icons/scss/FontAwesome.scss' // 131KB
 
 import Index from './pages/index'
 import './app.scss'
