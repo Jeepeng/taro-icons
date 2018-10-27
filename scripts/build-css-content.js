@@ -2,11 +2,12 @@
  * Created by Jeepeng on 2018/10/12.
  */
 const fs = require('fs');
-const path = require('path');
 
-const ijmap = require('./src/asset/json/MaterialIcons-Regular.json');
+const { mkdirsSync } = require('./utils');
 
-const OUTPUT_PATH = './scss';
+const ijmap = require('../src/asset/json/MaterialIcons-Regular.json');
+
+const OUTPUT_PATH = './scss/content';
 
 const icons = ijmap && ijmap.icons || {};
 const prefixName = 'md';
@@ -16,5 +17,6 @@ for (let icon in icons) {
   const classItem = `.${prefixName}-${name}:before{content:"\\${icon}"}`;
   classes.push(classItem);
 }
-fs.writeFileSync(`${OUTPUT_PATH}/_MaterialIcons-content.scss`, `${classes.join('')}`);
+mkdirsSync(OUTPUT_PATH);
+fs.writeFileSync(`${OUTPUT_PATH}/MaterialIcons.scss`, `${classes.join('')}`);
 

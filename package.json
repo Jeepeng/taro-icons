@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:data": "node ./build-font-data.js",
-    "build:content": "node ./build-css-content.js"
+    "build:data": "node ./scripts/build-font-data.js",
+    "build:content": "node ./scripts/build-css-content.js"
   },
   "repository": {
     "type": "git",

@@ -3,4 +3,4 @@ example/
 .idea
 src/asset/
 screenshots/
-build-*.js
+scripts/
