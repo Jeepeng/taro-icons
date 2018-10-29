@@ -25,7 +25,7 @@ npm install taro-icons --save
 import 'taro-icons/scss/MaterialCommunityIcons.scss' // 386KB
 import 'taro-icons/scss/MaterialIcons.scss' // 112KB
 import 'taro-icons/scss/Ionicons.scss' // 131KB
-import 'taro-icons/scss/FontAwesome.scss' // 131KB
+import 'taro-icons/scss/FontAwesome.scss' // 298KB
 ```
 
 然后在需要用到图标的地方引入对应d的`component`使用:
