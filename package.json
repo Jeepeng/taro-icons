@@ -1,6 +1,6 @@
 {
   "name": "taro-icons",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "基于 Taro 的小程序图标库",
   "main": "index.js",
   "scripts": {
