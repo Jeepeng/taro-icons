@@ -58,8 +58,8 @@ export default class Index extends Component {
             <MaterialCommunityIcons name='dots-horizontal' size={32} />
           </View>
           <View>
-            <Text className='text'>共 2906 个icons</Text>
-            <Text className='text'>打包后大小 386KB</Text>
+            <Text className='text'>共 3596 个icons</Text>
+            <Text className='text'>打包后大小 495KB</Text>
           </View>
         </View>
         <View className='item'>
@@ -73,7 +73,7 @@ export default class Index extends Component {
           </View>
           <View>
             <Text className='text'>共 696 个icons</Text>
-            <Text className='text'>打包后大小 131KB</Text>
+            <Text className='text'>打包后大小 134KB</Text>
           </View>
         </View>
         <View className='item'>
@@ -88,8 +88,8 @@ export default class Index extends Component {
             <FontAwesome style='margin:0 10px;' family='brands' name='git' size={32} />
           </View>
           <View>
-            <Text className='text'>共 1391 个icons</Text>
-            <Text className='text'>打包后大小 298KB</Text>
+            <Text className='text'>共 1513 个icons</Text>
+            <Text className='text'>打包后大小 322KB</Text>
           </View>
         </View>
       </View>
