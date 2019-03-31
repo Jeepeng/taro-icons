@@ -5,13 +5,13 @@
 
 ## 特性
 * 按需加载，根据自身需要选择加载不同的图标库，减少包大小
-* 大约 6000 个 icon 可供选择
+* 大约 6700 个 icon 可供选择
 
 ## 支持的图标库:
-- [x] [Ionicons](https://ionicons.com/) (v4.4.4, 696 icons,  ～131KB)
+- [x] [Ionicons](https://ionicons.com/) (v4.5.5, 696 icons,  ～134KB)
 - [x] [MaterialIcons](https://material.io/tools/icons/) (v3.0.1, 935 icons, ～112KB)
-- [x] [MaterialCommunityIcons](https://materialdesignicons.com/)  (v2.8.94, 2906 icons, ～386KB)
-- [x] [FontAwesome](https://fontawesome.com/) (v5.4.2, 1391 icons, ~298KB)
+- [x] [MaterialCommunityIcons](https://materialdesignicons.com/)  (v3.5.95, 3596 icons, ～495KB)
+- [x] [FontAwesome](https://fontawesome.com/) (v5.8.1, 1513 icons, ~322KB)
 
 ## 安装
 ```shell
@@ -22,10 +22,10 @@ npm install taro-icons --save
 ```js
 // app.js
 // 请根据需要选择导入的 scss，这里全部导入
-import 'taro-icons/scss/MaterialCommunityIcons.scss' // 386KB
+import 'taro-icons/scss/MaterialCommunityIcons.scss' // 495KB
 import 'taro-icons/scss/MaterialIcons.scss' // 112KB
-import 'taro-icons/scss/Ionicons.scss' // 131KB
-import 'taro-icons/scss/FontAwesome.scss' // 298KB
+import 'taro-icons/scss/Ionicons.scss' // 134KB
+import 'taro-icons/scss/FontAwesome.scss' // 322KB
 ```
 
 然后在需要用到图标的地方引入对应d的`component`使用:
